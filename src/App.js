@@ -71,6 +71,7 @@ function App() {
               <h3>{item.name}</h3>
               <p>Categoria: {item.category}</p>
               <p>Preço: {item.price}</p>
+              {/* <button onClick={}>X</button> */}
             </li>
           ))}
         </ul>
