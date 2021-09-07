@@ -64,7 +64,7 @@ function App() {
       <MenuContainer products={products} HandleClick={HandleClick} />
       <section className="cart">
         <h3>Carrinho</h3>
-        <label> Preço total: {cartTotal}</label>
+        <label> Preço total: {cartTotal.toFixed(2)}</label>
         <ul>
           {currentSale.map((item, index) => (
             <li>
