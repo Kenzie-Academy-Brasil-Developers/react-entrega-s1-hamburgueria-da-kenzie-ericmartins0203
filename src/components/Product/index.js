@@ -1,6 +1,8 @@
-function Product({ key, item, id, HandleClick }) {
+function Product({ item, HandleClick }) {
+  console.log(item.id);
+
   return (
-    <li>
+    <li key={item.id}>
       <h3>{item.name}</h3>
       <p>Categoria: {item.category}</p>
       <p>Preço: {item.price}</p>
